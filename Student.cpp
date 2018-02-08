@@ -19,17 +19,17 @@ vector <Student> studVector;
 
 cout << message << endl;
 
-for(int = 0; i <= 3;){
+for(int i = 0; i <= 3;){
 
 cout << info1;
 
 cin >> name;
 
-cout << endl;
-
 cout << info2;
 
 cin >> idNumber;
+
+cout << endl;
 
 Student human(name, idNumber);
 
@@ -45,7 +45,7 @@ for(int i = 0; i <= 3;){
 
 cout << endl;
 
-cout << "- - - - - - - - - - - - - - - - - - - -" << endl:
+cout << "- - - - - - - - - - - - - - - - - - - -" << endl;
 
 cout << studVector[i].getName() << endl;
 
@@ -58,8 +58,6 @@ i++;
 }
 
 cout << "Bye-Bye!!" << endl;
-
-system("pause");
 
 return 0;
 

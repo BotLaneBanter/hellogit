@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <stdlib.h>
  
 using namespace std;
 
@@ -46,7 +47,7 @@ return name;
 
 int getidNumber(){
 
-return idNum;
+return idNumber;
 
 }
 
